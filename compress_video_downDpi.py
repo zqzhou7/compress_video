@@ -159,4 +159,4 @@ if __name__ == '__main__':
     input_path = sys.argv[1]
     output_path = sys.argv[2]
     
-    compress_video(input_path, output_path, crf=28, preset='slow')
+    compress_video(input_path, output_path, crf=28, preset='slow') 
