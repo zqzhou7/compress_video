@@ -30,8 +30,9 @@ A Python-based tool that compresses video files using FFmpeg and ffprobe. The sc
 ## Usage
 
 Run the script from the command line with the input video file and output file path as arguments:
-```bash
-python compress_video.py input_video.mp4 output_video.mp4
+  ```bash
+  python compress_video.py input_video.mp4 output_video.mp4
+  ```
 
 ## How It Works
 - **Extract Video Information:**
