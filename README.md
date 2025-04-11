@@ -78,8 +78,8 @@ If the height of the video exceeds 720p, it downscales the video while maintaini
 
 - **Run FFmpeg for Compression:**
 Both scripts execute an FFmpeg command with the chosen parameters:
--- **For downscaling:** Applies resolution adjustments, H.264 codec compression with CRF and preset options, and copies audio to maintain original quality.
--- **For compression-only:** Adjusts the video bitrate (using `-b:v`) and applies the preset without any scaling filters.
+  - **For downscaling:** Applies resolution adjustments, H.264 codec compression with CRF and preset options, and copies audio to maintain original quality.
+  - **For compression-only:** Adjusts the video bitrate (using `-b:v`) and applies the preset without any scaling filters.
 
 - **Display Progress:**
 Both scripts parse FFmpeg’s progress output to update a live progress bar displayed by `tqdm`, giving you a visual indication of the compression progress.
