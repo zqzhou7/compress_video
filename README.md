@@ -107,4 +107,4 @@ Use appropriate permissions especially when overwriting files or installing syst
 - **Python Package Errors:**
 Verify that you have installed all required dependencies (e.g., `tqdm`).
 
-By using these two scripts, you have the flexibility to choose your preferred compression method—downscaling to 720p when needed, or simply reducing the file size while maintaining the original resolution and quality.
+By using these two scripts, you have the flexibility to choose your preferred compression method—downscaling to 720p when needed, or simply reducing the file size while maintaining the original resolution and quality. 
