@@ -100,8 +100,10 @@ Assembles and executes the FFmpeg command with appropriate options (resolution a
 ## Troubleshooting
 - **FFmpeg/ffprobe Not Found:**
 Ensure that these tools are installed and available in your PATH.
+
 - **Permission Issues:**
 Use appropriate permissions especially when overwriting files or installing system-wide tools.
+
 - **Python Package Errors:**
 Verify that you have installed all required dependencies (e.g., `tqdm`).
 
